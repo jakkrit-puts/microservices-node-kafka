@@ -1,0 +1,9 @@
+@BASE_URL=http://localhost:8000
+
+###
+POST {{BASE_URL}}/payment-service
+Content-Type: application/json
+
+{
+    "cart": "ok"
+}
