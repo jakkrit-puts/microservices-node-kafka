@@ -1,0 +1,19 @@
+@BASE_URL=http://localhost:3002
+
+###
+POST {{BASE_URL}}/tasks
+Content-Type: application/json
+
+{
+    "title": "Title 1",
+    "desc": "Desc 1",
+    "userId": "010eoeoeo"
+}
+
+###
+GET {{BASE_URL}}/tasks
+Content-Type: application/json
+
+###
+GET {{BASE_URL}}
+Content-Type: application/json
